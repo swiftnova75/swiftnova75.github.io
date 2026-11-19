@@ -1,0 +1,1559 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ks舞团夏柏 - 官方品牌站|原创舞蹈影像与舞台故事</title>
+<meta name="description" content="ks舞团夏柏官方网站，聚焦原创编舞、舞台影像与舞者成长故事，用专业与匠心记录每一次起舞的高光时刻。">
+<meta name="keywords" content="ks舞团夏柏,舞团,原创舞蹈,舞台影像,编舞,创作者社区">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231b1033'/%3E%3Ccircle cx='32' cy='24' r='7' fill='%23ffb347'/%3E%3Cpath d='M18 54c0-10 6-16 14-16s14 6 14 16z' fill='%23ff5d8f'/%3E%3Cpath d='M14 30l10-4M50 30l-10-4' stroke='%23ffb347' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+:root{
+  --xb-dark:#1b1033;
+  --xb-deep:#241545;
+  --xb-panel:#2d1a55;
+  --xb-line:rgba(255,255,255,.12);
+  --xb-amber:#ffb347;
+  --xb-pink:#ff5d8f;
+  --xb-mint:#5ee7c4;
+  --xb-text:#f3eefc;
+  --xb-sub:#b9acd6;
+  --xb-radius:18px;
+  --xb-shadow:0 18px 40px rgba(8,3,22,.45);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:150px}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+  background:var(--xb-dark);
+  color:var(--xb-text);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+.xb-wrap{width:min(1200px,92%);margin:0 auto}
+.xb-section{padding:76px 0 60px}
+.xb-section-head{margin-bottom:36px;max-width:760px}
+.xb-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:13px;letter-spacing:.24em;color:var(--xb-amber);
+  text-transform:uppercase;margin-bottom:12px;font-weight:600;
+}
+.xb-eyebrow::before{content:"";width:24px;height:2px;background:var(--xb-amber);display:inline-block}
+.xb-section-head h2{
+  font-size:clamp(24px,3.4vw,36px);line-height:1.3;letter-spacing:.02em;font-weight:700;
+}
+.xb-section-head h2 span{color:var(--xb-amber)}
+.xb-section-head p{color:var(--xb-sub);margin-top:12px;font-size:15.5px}
+.xb-topbar{
+  background:linear-gradient(90deg,#ffb347,#ff5d8f 55%,#a25bff);
+  color:#1b1033;font-size:13.5px;font-weight:600;
+}
+.xb-topbar .xb-wrap{
+  display:flex;align-items:center;gap:14px;padding:9px 0;flex-wrap:wrap;
+}
+.xb-topbar-badge{
+  background:#1b1033;color:#ffb347;border-radius:99px;padding:2px 12px;font-size:12px;letter-spacing:.08em;
+}
+.xb-sticky{position:sticky;top:0;z-index:60}
+.xb-header{
+  background:rgba(27,16,51,.92);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--xb-line);
+}
+.xb-header .xb-wrap{display:flex;align-items:center;gap:24px;height:72px}
+.xb-logo{display:flex;align-items:center;gap:11px;font-weight:800;font-size:19px;letter-spacing:.04em;white-space:nowrap}
+.xb-logo-mark{
+  width:40px;height:40px;border-radius:12px;
+  background:linear-gradient(140deg,#ffb347,#ff5d8f 60%,#7b5cff);
+  display:grid;place-items:center;font-size:18px;color:#1b1033;
+  box-shadow:0 0 22px rgba(255,93,143,.45);
+}
+.xb-logo small{display:block;font-size:10.5px;font-weight:500;color:var(--xb-sub);letter-spacing:.2em}
+.xb-nav{display:flex;gap:4px;margin-left:auto}
+.xb-nav a{
+  padding:9px 13px;border-radius:10px;font-size:14.5px;color:var(--xb-sub);transition:.25s;
+}
+.xb-nav a:hover{color:#fff;background:rgba(255,255,255,.07)}
+.xb-header-tools{display:flex;align-items:center;gap:10px}
+.xb-search{
+  display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.07);
+  border:1px solid var(--xb-line);border-radius:99px;padding:7px 8px 7px 15px;
+}
+.xb-search input{
+  background:transparent;border:none;outline:none;color:var(--xb-text);
+  font-size:13.5px;width:150px;
+}
+.xb-search input::placeholder{color:#8d7fb0}
+.xb-search button{
+  background:var(--xb-amber);color:#231040;font-weight:700;font-size:13px;
+  padding:6px 14px;border-radius:99px;
+}
+.xb-burger{display:none;font-size:22px;padding:6px 10px;border-radius:10px;border:1px solid var(--xb-line)}
+.xb-search-feedback{
+  position:fixed;left:50%;transform:translateX(-50%) translateY(-8px);
+  top:112px;z-index:90;background:#fff;color:#241545;font-size:14px;
+  padding:10px 20px;border-radius:99px;box-shadow:0 14px 32px rgba(0,0,0,.35);
+  opacity:0;pointer-events:none;transition:.3s;font-weight:600;
+}
+.xb-search-feedback.is-on{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* HERO */
+.xb-hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(900px 480px at 82% 12%,rgba(255,93,143,.24),transparent 62%),
+    radial-gradient(700px 420px at 10% 82%,rgba(94,231,196,.16),transparent 60%),
+    linear-gradient(160deg,#1b1033,#2b1550 62%,#1b1033);
+}
+.xb-hero .xb-wrap{
+  display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;
+  padding:72px 0 84px;position:relative;z-index:2;
+}
+.xb-hero-tags{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}
+.xb-chip{
+  font-size:12.5px;padding:5px 13px;border-radius:99px;border:1px solid var(--xb-line);
+  color:var(--xb-sub);background:rgba(255,255,255,.04);letter-spacing:.06em;
+}
+.xb-chip.is-hot{border-color:rgba(255,179,71,.6);color:var(--xb-amber);background:rgba(255,179,71,.1)}
+.xb-hero h1{
+  font-size:clamp(38px,5.6vw,62px);line-height:1.1;letter-spacing:.01em;font-weight:800;
+  background:linear-gradient(100deg,#fff 20%,#ffb347 55%,#ff5d8f 88%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  margin-bottom:8px;
+}
+.xb-hero-en{font-size:14px;letter-spacing:.42em;color:var(--xb-mint);text-transform:uppercase;margin-bottom:22px}
+.xb-hero-lead{color:#d9d0ee;font-size:16.5px;max-width:560px}
+.xb-hero-lead strong{color:var(--xb-amber);font-weight:600}
+.xb-hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+.xb-btn{
+  display:inline-flex;align-items:center;gap:9px;padding:13px 26px;border-radius:99px;
+  font-size:15px;font-weight:700;transition:.25s;border:1px solid transparent;
+}
+.xb-btn-primary{background:linear-gradient(120deg,#ffb347,#ff5d8f);color:#231040;box-shadow:0 12px 30px rgba(255,93,143,.34)}
+.xb-btn-primary:hover{transform:translateY(-2px);box-shadow:0 18px 38px rgba(255,93,143,.46)}
+.xb-btn-ghost{border-color:rgba(255,255,255,.28);color:var(--xb-text)}
+.xb-btn-ghost:hover{background:rgba(255,255,255,.09);transform:translateY(-2px)}
+.xb-hero-stats{display:flex;gap:38px;margin-top:42px;flex-wrap:wrap}
+.xb-stat b{display:block;font-size:30px;font-weight:800;color:var(--xb-mint);line-height:1.2}
+.xb-stat span{font-size:13px;color:var(--xb-sub);letter-spacing:.08em}
+.xb-hero-visual{position:relative}
+.xb-hero-cover{
+  border-radius:26px;overflow:hidden;border:1px solid rgba(255,255,255,.16);
+  box-shadow:var(--xb-shadow);transform:rotate(-1.6deg);
+}
+.xb-hero-cover img{width:100%;aspect-ratio:16/11;object-fit:cover}
+.xb-hero-foot{
+  display:flex;justify-content:space-between;align-items:center;gap:12px;
+  margin-top:16px;background:rgba(255,255,255,.06);border:1px solid var(--xb-line);
+  border-radius:14px;padding:12px 18px;font-size:13.5px;color:var(--xb-sub);
+}
+.xb-hero-foot b{color:var(--xb-amber)}
+.xb-floating{position:absolute;border-radius:16px;pointer-events:none;filter:blur(.2px);opacity:.85}
+.xb-floating-1{width:110px;height:110px;top:-26px;right:-22px;background:radial-gradient(circle at 32% 30%,#ffb347,transparent 68%)}
+.xb-floating-2{width:150px;height:150px;bottom:-40px;left:-40px;background:radial-gradient(circle at 60% 60%,#5ee7c4,transparent 70%)}
+
+/* ABOUT / KEYWORD PARSE */
+.xb-about{background:var(--xb-deep);border-top:1px solid var(--xb-line);border-bottom:1px solid var(--xb-line)}
+.xb-about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:54px;align-items:start}
+.xb-about-card{
+  position:sticky;top:150px;background:linear-gradient(165deg,#35206a,#221343);
+  border:1px solid rgba(255,255,255,.14);border-radius:var(--xb-radius);padding:32px;
+  box-shadow:var(--xb-shadow);
+}
+.xb-about-card h3{font-size:20px;margin-bottom:10px;color:var(--xb-amber)}
+.xb-about-card p{color:var(--xb-sub);font-size:14.5px}
+.xb-mini-list{margin-top:22px;display:grid;gap:12px}
+.xb-mini-list li{display:flex;gap:10px;font-size:14px;color:#d5cae9}
+.xb-mini-list li::before{content:"◆";color:var(--xb-pink);font-size:11px;line-height:1.9}
+.xb-about-body h2{font-size:clamp(24px,3vw,33px);line-height:1.34;margin-bottom:20px}
+.xb-about-body h2 span{color:var(--xb-mint)}
+.xb-about-body p{color:#c9bde3;font-size:15.5px;margin-bottom:16px}
+.xb-about-body p strong{color:var(--xb-amber);font-weight:600}
+.xb-sub-divider{height:1px;background:var(--xb-line);margin:30px 0}
+.xb-about-body h3{font-size:17.5px;margin:24px 0 10px;color:#fff;padding-left:14px;border-left:3px solid var(--xb-pink)}
+
+/* FOCUS */
+.xb-focus-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:22px}
+.xb-card{
+  background:linear-gradient(170deg,#2c1854,#211240);
+  border:1px solid var(--xb-line);border-radius:var(--xb-radius);overflow:hidden;
+  transition:transform .3s,border-color .3s,box-shadow .3s;
+}
+.xb-card:hover{transform:translateY(-5px);border-color:rgba(255,179,71,.45);box-shadow:0 22px 44px rgba(0,0,0,.42)}
+.xb-cover{position:relative;overflow:hidden}
+.xb-cover img{width:100%;object-fit:cover;transition:transform .5s}
+.xb-card:hover .xb-cover img{transform:scale(1.05)}
+.xb-cover::after{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(20,10,40,0) 42%,rgba(20,10,40,.85));
+}
+.xb-cover-tag{
+  position:absolute;top:12px;left:12px;z-index:3;font-size:12px;font-weight:700;
+  background:rgba(255,179,71,.92);color:#231040;padding:4px 12px;border-radius:99px;
+}
+.xb-cover-play{
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:3;
+  width:56px;height:56px;border-radius:50%;background:rgba(255,255,255,.92);
+  display:grid;place-items:center;color:#231040;font-size:17px;padding-left:4px;
+  box-shadow:0 10px 26px rgba(0,0,0,.34);
+}
+.xb-cover-meta{
+  position:absolute;left:16px;right:16px;bottom:14px;z-index:3;
+  display:flex;justify-content:space-between;align-items:flex-end;gap:10px;
+  font-size:12.5px;color:#f0e9ff;
+}
+.xb-card-body{padding:18px 20px 20px}
+.xb-card-body h3{font-size:17px;line-height:1.45;margin-bottom:8px}
+.xb-card-body p{color:var(--xb-sub);font-size:13.5px;line-height:1.7}
+.xb-card-tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.xb-card-tags span{font-size:11.5px;color:var(--xb-mint);border:1px solid rgba(94,231,196,.34);padding:2px 10px;border-radius:99px}
+.xb-card-actions{
+  display:flex;align-items:center;gap:16px;margin-top:16px;padding-top:14px;
+  border-top:1px dashed rgba(255,255,255,.1);font-size:13px;color:var(--xb-sub);
+}
+.xb-act{display:inline-flex;align-items:center;gap:6px;transition:.2s;padding:2px}
+.xb-act:hover{color:var(--xb-amber)}
+.xb-act.is-liked{color:var(--xb-pink)}
+.xb-act.is-saved{color:var(--xb-amber)}
+.xb-focus-side{display:grid;gap:16px}
+.xb-focus-side .xb-card{display:grid;grid-template-columns:130px 1fr;align-items:stretch}
+.xb-focus-side .xb-cover img{height:100%;min-height:112px}
+.xb-focus-side .xb-cover::after{background:linear-gradient(90deg,rgba(20,10,40,.55),transparent)}
+.xb-focus-side .xb-card-body{padding:14px 16px}
+.xb-focus-side h3{font-size:14.5px}
+.xb-focus-side p{display:none}
+.xb-focus-side .xb-cover-play{width:36px;height:36px;font-size:12px}
+
+/* VIDEO FLOW */
+.xb-flow-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.xb-cover img{aspect-ratio:16/9}
+.xb-video-card .xb-card-body h3{font-size:16px}
+.xb-author-line{display:flex;align-items:center;gap:9px;margin-top:12px;font-size:13px;color:var(--xb-sub)}
+.xb-avatar{
+  width:30px;height:30px;border-radius:50%;display:grid;place-items:center;
+  font-size:13px;font-weight:700;color:#231040;flex:none;
+}
+.xb-filter-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:26px}
+.xb-filter{
+  font-size:13.5px;padding:7px 17px;border-radius:99px;border:1px solid var(--xb-line);
+  color:var(--xb-sub);transition:.22s;
+}
+.xb-filter:hover{color:#fff;border-color:rgba(255,255,255,.4)}
+.xb-filter.is-active{background:linear-gradient(120deg,#ffb347,#ff5d8f);color:#231040;font-weight:700;border-color:transparent}
+
+/* TOPIC */
+.xb-topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.xb-topic{
+  border:1px solid var(--xb-line);border-radius:var(--xb-radius);overflow:hidden;
+  background:linear-gradient(165deg,#33206a,#1f1140);transition:.3s;position:relative;
+}
+.xb-topic:hover{transform:translateY(-5px);border-color:rgba(94,231,196,.4)}
+.xb-topic-head{padding:22px 22px 0}
+.xb-topic-head h3{font-size:18px;margin-bottom:8px}
+.xb-topic-head p{font-size:13.5px;color:var(--xb-sub);min-height:66px}
+.xb-topic-status{
+  display:inline-flex;align-items:center;gap:7px;font-size:12px;margin-top:12px;
+  color:var(--xb-mint);
+}
+.xb-topic-status::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--xb-mint);box-shadow:0 0 10px var(--xb-mint)}
+.xb-topic-cover{margin-top:16px}
+.xb-topic-cover img{aspect-ratio:16/9;object-fit:cover}
+
+/* CREATORS */
+.xb-creator-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.xb-creator{
+  background:linear-gradient(170deg,#2a1951,#1e1139);border:1px solid var(--xb-line);
+  border-radius:var(--xb-radius);padding:24px;transition:.3s;
+}
+.xb-creator:hover{transform:translateY(-4px);border-color:rgba(255,93,143,.42)}
+.xb-creator-top{display:flex;align-items:center;gap:14px}
+.xb-creator .xb-avatar{width:54px;height:54px;font-size:20px;border-radius:16px}
+.xb-creator-top h3{font-size:17px}
+.xb-creator-top span{font-size:12.5px;color:var(--xb-mint);letter-spacing:.06em}
+.xb-creator p{font-size:13.5px;color:var(--xb-sub);margin-top:14px;min-height:64px}
+.xb-creator-meta{display:flex;gap:22px;margin-top:14px;font-size:13px;color:#d3c8e9}
+.xb-creator-meta b{color:var(--xb-amber);font-weight:700}
+.xb-creator-btn{
+  margin-top:16px;width:100%;padding:10px;border-radius:12px;border:1px solid rgba(255,179,71,.45);
+  color:var(--xb-amber);font-size:13.5px;font-weight:600;transition:.22s;
+}
+.xb-creator-btn:hover{background:rgba(255,179,71,.14)}
+
+/* STORIES */
+.xb-story-wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:24px}
+.xb-story-main{
+  border-radius:var(--xb-radius);overflow:hidden;position:relative;min-height:340px;
+  border:1px solid var(--xb-line);
+}
+.xb-story-main img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.xb-story-mask{position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,10,40,.1) 30%,rgba(20,10,40,.92))}
+.xb-story-text{position:absolute;left:26px;right:26px;bottom:24px;z-index:2}
+.xb-story-text h3{font-size:22px;margin-bottom:10px}
+.xb-story-text p{font-size:14px;color:#cfc3e6}
+.xb-story-list{display:grid;gap:16px}
+.xb-story-item{
+  background:rgba(255,255,255,.05);border:1px solid var(--xb-line);border-radius:16px;
+  padding:18px 20px;transition:.25s;
+}
+.xb-story-item:hover{background:rgba(255,255,255,.09);transform:translateX(4px)}
+.xb-story-item h3{font-size:15.5px;margin-bottom:6px}
+.xb-story-item p{font-size:13px;color:var(--xb-sub)}
+.xb-story-item time{display:block;font-size:12px;color:var(--xb-mint);margin-top:8px;letter-spacing:.08em}
+
+/* WALL */
+.xb-wall{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.xb-wall figure{position:relative;border-radius:14px;overflow:hidden;border:1px solid var(--xb-line)}
+.xb-wall img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.xb-wall figure:hover img{transform:scale(1.07)}
+.xb-wall figcaption{
+  position:absolute;left:0;right:0;bottom:0;padding:10px 12px;font-size:12px;
+  background:linear-gradient(180deg,transparent,rgba(20,10,40,.9));color:#eee6ff;
+}
+.xb-wall .xb-wall-big{grid-column:span 2;grid-row:span 2}
+.xb-wall .xb-wall-big img{aspect-ratio:1/1}
+.xb-wall figure:not(.xb-wall-big) img{aspect-ratio:1/1}
+
+/* REVIEWS */
+.xb-review-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.xb-review{
+  background:linear-gradient(165deg,#2a1950,#1e1139);border:1px solid var(--xb-line);
+  border-radius:16px;padding:20px 22px;transition:.25s;
+}
+.xb-review:hover{border-color:rgba(94,231,196,.36)}
+.xb-review-top{display:flex;align-items:center;gap:11px;margin-bottom:12px}
+.xb-review-top b{font-size:14px}
+.xb-review-top span{font-size:12px;color:var(--xb-sub)}
+.xb-stars{margin-left:auto;color:var(--xb-amber);font-size:12.5px;letter-spacing:.12em}
+.xb-review p{font-size:13.5px;color:#d2c6ea}
+
+/* NEWS + FAQ */
+.xb-two-col{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start}
+.xb-news-list{display:grid;gap:14px}
+.xb-news{
+  display:flex;gap:16px;padding:16px 18px;border-radius:14px;
+  background:rgba(255,255,255,.04);border:1px solid var(--xb-line);transition:.24s;
+}
+.xb-news:hover{background:rgba(255,255,255,.08)}
+.xb-news time{font-size:12.5px;color:var(--xb-amber);white-space:nowrap;letter-spacing:.05em}
+.xb-news div h3{font-size:15px;margin-bottom:5px}
+.xb-news div p{font-size:13px;color:var(--xb-sub)}
+.xb-faq details{
+  border:1px solid var(--xb-line);border-radius:14px;background:rgba(255,255,255,.04);
+  padding:15px 18px;margin-bottom:11px;transition:.25s;
+}
+.xb-faq details[open]{border-color:rgba(255,179,71,.42);background:rgba(255,179,71,.06)}
+.xb-faq summary{font-size:14.5px;font-weight:600;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:12px}
+.xb-faq summary::-webkit-details-marker{display:none}
+.xb-faq summary::after{content:"+";color:var(--xb-amber);font-size:18px;line-height:1;transition:.25s}
+.xb-faq details[open] summary::after{transform:rotate(45deg)}
+.xb-faq details p{font-size:13.5px;color:var(--xb-sub);margin-top:11px;padding-top:11px;border-top:1px dashed rgba(255,255,255,.1)}
+
+/* CONTACT */
+.xb-contact{
+  background:linear-gradient(120deg,#341c69,#1f1140 55%,#3a1752);
+  border-top:1px solid var(--xb-line);border-bottom:1px solid var(--xb-line);
+}
+.xb-contact-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:46px;align-items:center}
+.xb-contact h2{font-size:clamp(24px,3.2vw,34px);line-height:1.32;margin-bottom:16px}
+.xb-contact h2 span{color:var(--xb-amber)}
+.xb-contact p{color:#cfc3e6;font-size:15px;margin-bottom:14px}
+.xb-contact-info{display:grid;gap:10px;margin-top:22px;font-size:14px;color:#d8cdeb}
+.xb-contact-info b{color:var(--xb-mint);font-weight:600}
+.xb-contact-card{
+  background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);
+  border-radius:22px;padding:30px;box-shadow:var(--xb-shadow);
+}
+.xb-contact-card h3{font-size:18px;margin-bottom:8px}
+.xb-contact-card p{font-size:13.5px;color:var(--xb-sub);margin-bottom:18px}
+.xb-form-row{display:grid;gap:12px;margin-bottom:14px}
+.xb-form-row input,.xb-form-row select,.xb-form-row textarea{
+  width:100%;background:rgba(15,7,32,.55);border:1px solid var(--xb-line);border-radius:11px;
+  padding:11px 14px;color:var(--xb-text);font-size:14px;outline:none;transition:.2s;
+}
+.xb-form-row input:focus,.xb-form-row select:focus,.xb-form-row textarea:focus{border-color:var(--xb-amber)}
+.xb-form-row textarea{resize:vertical;min-height:78px}
+.xb-contact-submit{width:100%;padding:13px;border-radius:12px;background:linear-gradient(120deg,#ffb347,#ff5d8f);color:#231040;font-weight:800;font-size:15px;transition:.22s}
+.xb-contact-submit:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(255,93,143,.4)}
+
+/* FOOTER */
+.xb-footer{background:#150c29;padding:56px 0 26px;border-top:1px solid var(--xb-line)}
+.xb-footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:34px;margin-bottom:36px}
+.xb-footer h4{font-size:15px;margin-bottom:14px;color:#fff}
+.xb-footer p,.xb-footer li{font-size:13.3px;color:var(--xb-sub);line-height:2}
+.xb-footer a:hover{color:var(--xb-amber)}
+.xb-footer-bottom{
+  border-top:1px solid var(--xb-line);padding-top:20px;display:flex;justify-content:space-between;
+  gap:14px;flex-wrap:wrap;font-size:12.5px;color:#8d7fb0;
+}
+.xb-social{display:flex;gap:10px;margin-top:16px}
+.xb-social span{
+  width:34px;height:34px;border-radius:10px;border:1px solid var(--xb-line);
+  display:grid;place-items:center;font-size:13px;color:var(--xb-sub);transition:.22s;cursor:pointer;
+}
+.xb-social span:hover{color:var(--xb-amber);border-color:rgba(255,179,71,.5)}
+
+.xb-to-top{
+  position:fixed;right:22px;bottom:26px;z-index:70;width:46px;height:46px;border-radius:50%;
+  background:linear-gradient(140deg,#ffb347,#ff5d8f);color:#231040;display:grid;place-items:center;
+  font-size:16px;font-weight:800;box-shadow:0 12px 28px rgba(255,93,143,.4);
+  opacity:0;pointer-events:none;transition:.3s;
+}
+.xb-to-top.is-on{opacity:1;pointer-events:auto}
+.xb-to-top:hover{transform:translateY(-3px)}
+
+.xb-modal{
+  position:fixed;inset:0;z-index:120;display:grid;place-items:center;padding:20px;
+  background:rgba(8,3,20,.74);backdrop-filter:blur(6px);
+  opacity:0;pointer-events:none;transition:.28s;
+}
+.xb-modal.is-on{opacity:1;pointer-events:auto}
+.xb-modal-card{
+  width:min(520px,100%);background:linear-gradient(165deg,#341d68,#1d1039);
+  border:1px solid rgba(255,255,255,.2);border-radius:20px;padding:28px;position:relative;
+  transform:translateY(14px);transition:.28s;box-shadow:var(--xb-shadow);
+}
+.xb-modal.is-on .xb-modal-card{transform:translateY(0)}
+.xb-modal-card h3{font-size:19px;margin-bottom:10px;color:var(--xb-amber)}
+.xb-modal-card p{font-size:14px;color:#cfc3e6;margin-bottom:16px}
+.xb-modal-close{position:absolute;top:14px;right:16px;font-size:20px;color:var(--xb-sub)}
+.xb-modal-close:hover{color:#fff}
+.xb-share-row{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.xb-share-row button{
+  flex:1;min-width:100px;padding:10px;border-radius:11px;border:1px solid var(--xb-line);
+  font-size:13.5px;transition:.22s;
+}
+.xb-share-row button:hover{background:rgba(255,255,255,.09);border-color:rgba(255,179,71,.5)}
+.xb-toast{
+  position:fixed;left:50%;bottom:90px;transform:translateX(-50%) translateY(12px);
+  background:#fff;color:#241545;padding:11px 22px;border-radius:99px;font-size:14px;font-weight:700;
+  box-shadow:0 16px 34px rgba(0,0,0,.4);z-index:130;opacity:0;pointer-events:none;transition:.3s;
+}
+.xb-toast.is-on{opacity:1;transform:translateX(-50%) translateY(0)}
+
+@media(max-width:1024px){
+  .xb-hero .xb-wrap{grid-template-columns:1fr;gap:36px;padding:52px 0 64px}
+  .xb-about-grid,.xb-focus-grid,.xb-story-wrap,.xb-two-col,.xb-contact-grid{grid-template-columns:1fr;gap:30px}
+  .xb-about-card{position:static}
+  .xb-flow-grid,.xb-topic-grid,.xb-creator-grid{grid-template-columns:repeat(2,1fr)}
+  .xb-footer-grid{grid-template-columns:1fr 1fr}
+  .xb-nav{
+    display:none;position:absolute;top:100%;left:0;right:0;
+    background:#231345;border-bottom:1px solid var(--xb-line);padding:14px 5%;
+    flex-direction:column;gap:4px;
+  }
+  .xb-nav.is-open{display:flex}
+  .xb-burger{display:inline-block}
+  .xb-search input{width:110px}
+  .xb-header .xb-wrap{flex-wrap:wrap;height:auto;padding:12px 0}
+}
+@media(max-width:720px){
+  .xb-hero-stats{gap:24px}
+  .xb-flow-grid,.xb-topic-grid,.xb-creator-grid,.xb-wall,.xb-review-grid{grid-template-columns:1fr}
+  .xb-wall .xb-wall-big{grid-column:span 1;grid-row:span 1}
+  .xb-focus-side .xb-card{grid-template-columns:104px 1fr}
+  .xb-search{display:none}
+  .xb-footer-grid{grid-template-columns:1fr}
+  .xb-section{padding:56px 0 44px}
+  html{scroll-padding-top:120px}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="xb-topbar">
+  <div class="xb-wrap">
+    <span class="xb-topbar-badge">官方发布</span>
+    <span>新企划「城市即舞台」第三季正式启动，首支原创编舞影像《走过街角的光》已上线；创作者联合投稿通道同步开启，报名截止 2026-12-08。</span>
+  </div>
+</div>
+
+<div class="xb-sticky">
+  <header class="xb-header">
+    <div class="xb-wrap">
+      <a class="xb-logo" href="#xb-home">
+        <span class="xb-logo-mark">舞</span>
+        <span>ks舞团夏柏<small>KS DANCE · XIABAI</small></span>
+      </a>
+      <nav class="xb-nav" id="xbNav">
+        <a href="#xb-home">首页</a>
+        <a href="#xb-about">品牌解析</a>
+        <a href="#xb-focus">焦点内容</a>
+        <a href="#xb-flow">舞影像</a>
+        <a href="#xb-creators">创作者</a>
+        <a href="#xb-topics">专题企划</a>
+        <a href="#xb-news">企业动态</a>
+        <a href="#xb-contact">联系与投稿</a>
+      </nav>
+      <div class="xb-header-tools">
+        <div class="xb-search">
+          <input id="xbSearchInput" type="text" placeholder="搜索舞种 / 创作者 / 企划" aria-label="站内搜索">
+          <button id="xbSearchBtn" type="button">搜索</button>
+        </div>
+        <button class="xb-burger" id="xbBurger" type="button" aria-label="展开导航">☰</button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<div class="xb-search-feedback" id="xbSearchFeedback" role="status"></div>
+
+<main id="xb-home">
+
+  <!-- HERO -->
+  <section class="xb-hero">
+    <div class="xb-floating xb-floating-1"></div>
+    <div class="xb-floating xb-floating-2"></div>
+    <div class="xb-wrap">
+      <div class="xb-hero-copy">
+        <div class="xb-hero-tags">
+          <span class="xb-chip is-hot">品牌官网</span>
+          <span class="xb-chip">原创编舞</span>
+          <span class="xb-chip">舞台影像</span>
+          <span class="xb-chip">持续运营</span>
+        </div>
+        <h1>ks舞团夏柏</h1>
+        <p class="xb-hero-en">Dance · Story · Community</p>
+        <p class="xb-hero-lead">
+          这里是 <strong>ks舞团夏柏</strong> 的官方网站。我们是一支以原创编舞为核心的企业级舞团，
+          用影像记录排练厅里的汗水与舞台上的高光，让每一次起舞都被认真对待。
+        </p>
+        <div class="xb-hero-actions">
+          <a class="xb-btn xb-btn-primary" href="#xb-focus">看焦点内容 ▸</a>
+          <a class="xb-btn xb-btn-ghost" href="#xb-contact">投稿与合作</a>
+        </div>
+        <div class="xb-hero-stats">
+          <div class="xb-stat"><b data-xb-count="268">0</b><span>原创编舞作品</span></div>
+          <div class="xb-stat"><b data-xb-count="47">0</b><span>签约创作者</span></div>
+          <div class="xb-stat"><b data-xb-count="126">0</b><span>万社区舞迷</span></div>
+        </div>
+      </div>
+      <div class="xb-hero-visual">
+        <div class="xb-hero-cover">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 550'%3E%3Cdefs%3E%3ClinearGradient id='bg1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2326134a'/%3E%3Cstop offset='1' stop-color='%230f0724'/%3E%3C/linearGradient%3E%3ClinearGradient id='g1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23ffb347'/%3E%3Cstop offset='1' stop-color='%23ff5d8f'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='550' fill='url(%23bg1)'/%3E%3Ccircle cx='620' cy='130' r='96' fill='%23ff5d8f' opacity='.22'/%3E%3Ccircle cx='180' cy='430' r='120' fill='%235ee7c4' opacity='.16'/%3E%3Cg stroke='url(%23g1)' stroke-width='9' fill='none' stroke-linecap='round'%3E%3Cpath d='M300 250c30-56 86-72 118-24 24 36-8 74-40 82'/%3E%3Cpath d='M378 308c40 24 44 78 10 112'/%3E%3Cpath d='M388 420c-56 6-98-30-96-78'/%3E%3Cpath d='M292 342c-30-30-24-72 8-92'/%3E%3C/g%3E%3Ccircle cx='378' cy='238' r='26' fill='%23ffb347'/%3E%3Cpath d='M340 235l-46-34M416 235l46-34M340 380l-48 22M420 372l46 30' stroke='%23ff5d8f' stroke-width='7' stroke-linecap='round'/%3E%3Ctext x='60' y='86' font-family='sans-serif' font-size='26' fill='%23f3eefc' font-weight='bold'%3EKS XIABAI%3C/text%3E%3Ctext x='60' y='116' font-family='sans-serif' font-size='14' fill='%23ffb347' letter-spacing='6'%3EDANCE FILM COMMUNITY%3C/text%3E%3Crect x='60' y='478' width='176' height='4' rx='2' fill='%235ee7c4'/%3E%3C/svg%3E" alt="ks舞团夏柏主视觉：舞者在光影中舒展手臂的编舞姿势">
+        </div>
+        <div class="xb-hero-foot">
+          <span>本月焦点 · <b>《走过街角的光》</b></span>
+          <span>04:16 · 正版高清</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT / KEYWORD PARSE -->
+  <section class="xb-section xb-about" id="xb-about">
+    <div class="xb-wrap">
+      <div class="xb-section-head">
+        <div class="xb-eyebrow">Brand Insight</div>
+        <h2>关于 <span>ks舞团夏柏</span> 的定位与解析</h2>
+        <p>一支把舞蹈当作品来打磨的舞团，也是一个把舞者当创作者来对待的内容社区。</p>
+      </div>
+      <div class="xb-about-grid">
+        <aside class="xb-about-card">
+          <h3>一页读懂我们</h3>
+          <p>「ks舞团夏柏」不是一个名字的拼贴，而是一套完整的创作方法：KS 代表 Keep Shining，夏柏是团队最初的排练厅所在。</p>
+          <ul class="xb-mini-list">
+            <li>原创编舞为核心，拒绝搬运与翻拍</li>
+            <li>影像工业化流程，成片均为高规格正版内容</li>
+            <li>创作者签约体系，稿酬与分成透明</li>
+            <li>覆盖街舞、当代、国风、爵士多舞种</li>
+            <li>年度企划「城市即舞台」已持续三季</li>
+          </ul>
+        </aside>
+        <div class="xb-about-body">
+          <h2>让舞蹈被看见，也 <span>让舞者被记住</span></h2>
+          <p>
+            <strong>ks舞团夏柏</strong> 成立于 2017 年，是围绕「舞蹈影像」建立的品牌化内容机构。
+            过去九年里，团队从一间 90 平米的排练厅出发，逐步形成了编舞研发、影像制作、创作者孵化与线下展演四条业务线。
+            作为国内较早把舞蹈当作「可被观看的作品」来系统运营的企业，我们始终相信：舞蹈不应只在现场被看见，
+            它同样需要专业镜头、完整叙事与稳定分发，才能成为真正意义上的精品内容。
+          </p>
+          <p>
+            在关键词「ks舞团夏柏」的语义结构中，ks 是团队的自我宣言，夏柏是地点与记忆，舞团则是身份与边界。
+            三者叠加，构成了一个既具体又开放的品牌：具体在于我们有固定班底、固定排练与固定审美；
+            开放在于我们从不把自己限定在某一个舞种里。街舞的爆发力、当代舞的叙事感、国风的身体韵律、
+            爵士的情绪线条，都可以在同一支作品里共存。这正是我们理解的多元与包容——不是并置，而是融合。
+          </p>
+          <h3>内容生态：从一支舞到一整套叙事</h3>
+          <p>
+            我们把每一个作品拆成「编舞笔记、排练记录、成片、幕后访谈、观众反馈」五个环节，
+            分别对应社区里的知识科普、日常记录、精品内容、人物访谈与互动讨论。
+            观众看到的是一支四分钟的舞蹈影像，但在这支影像背后，有编舞师反复推倒重来的第 27 版结构、
+            有摄影师为一段旋转找到的月光角度、有舞者膝盖上没来得及处理的淤青。
+            把这些过程公开，是 ks舞团夏柏 对「真实」的理解：作品值得被仰望，创作过程值得被直视。
+          </p>
+          <h3>创作者机制：让舞者有职业路径</h3>
+          <p>
+            舞者的职业周期往往很短，这是行业长期存在的现实。ks舞团夏柏 从上线的第一年起就尝试改变这一点：
+            我们把签约创作者分为编舞、表演、影像、教学四个方向，每个方向都有明确的成长路径与作品署名规则。
+            一位舞者可以从群舞走到独舞，也可以从表演转向编舞，或者成为影像分镜的参与者。
+            我们不把创作者当作素材提供方，而是当作共同的品牌持有者。这是「用户至上」在舞蹈行业里的具体写法。
+          </p>
+          <h3>品质与口碑：慢一点，但站得住</h3>
+          <p>
+            在追求更新速度的内容环境里，ks舞团夏柏 选择了一条相对慢的路：一支三到五分钟的原创编舞影像，
+            从立项到上线通常需要 45 至 60 天。我们坚持现场收音、坚持真实排练场地拍摄、坚持编舞署名清晰可查。
+            这些看起来「不划算」的坚持，换来了社区里持续九年的口碑——很多观众从大学看到工作，
+            很多人第一次走进舞蹈教室，正是因为看了我们的一支作品。这就是内容生态最朴素的价值：
+            它不止被消费，它还能推动人做出改变。
+          </p>
+          <p>
+            2026 年，我们把品牌重心放在「城市即舞台」系列与创作者联合投稿上。
+            前者把镜头从排练厅搬到城市街头、天台、菜市场与地铁站口，
+            后者则向全平台创作者开放报名，提供编舞指导、拍摄支持与官方发布资源。
+            我们希望通过这样的方式，让 ks舞团夏柏 从一个舞团名称，变成一个可以被更多舞者使用的舞台。
+          </p>
+          <div class="xb-sub-divider"></div>
+          <p>
+            <strong>作为国内舞蹈影像领域持续深耕的品牌，ks舞团夏柏 的官方网站</strong> 不仅是作品陈列页，
+            也是创作者入口、行业观察窗口与社区互动空间。我们在这里发布企业动态、公开企划进度、
+            分享编舞方法，也在这里收集每一条认真写下的观众反馈。因为我们始终认为，
+            一个值得信赖的舞蹈品牌，应该把自己的工作过程摊开给人看。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOCUS -->
+  <section class="xb-section" id="xb-focus">
+    <div class="xb-wrap">
+      <div class="xb-section-head">
+        <div class="xb-eyebrow">Focus</div>
+        <h2>焦点内容 · <span>本月主推</span></h2>
+        <p>两支重量级原创编舞影像，加四条值得留意的近期作品。</p>
+      </div>
+      <div class="xb-focus-grid">
+        <article class="xb-card">
+          <div class="xb-cover">
+            <span class="xb-cover-tag">年度重点</span>
+            <span class="xb-cover-play">▶</span>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Cdefs%3E%3ClinearGradient id='f1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232b1155'/%3E%3Cstop offset='1' stop-color='%23140829'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='450' fill='url(%23f1)'/%3E%3Cg opacity='.9'%3E%3Cpath d='M0 340L180 250l120 40 160-110 180 70 160-90v290H0z' fill='%23341a66'/%3E%3C/g%3E%3Cg stroke='%23ffb347' stroke-width='8' fill='none' stroke-linecap='round'%3E%3Cpath d='M400 150c22-40 66-40 72 4 4 34-30 52-58 44'/%3E%3Cpath d='M414 198c-4 40 18 70 52 78'/%3E%3Cpath d='M348 200c-28 18-34 56-10 80'/%3E%3C/g%3E%3Ccircle cx='396' cy='130' r='20' fill='%23ff5d8f'/%3E%3Ccircle cx='640' cy='120' r='46' fill='%235ee7c4' opacity='.2'/%3E%3Ctext x='48' y='78' font-family='sans-serif' font-size='20' fill='%23ffe1b8' font-weight='bold'%3E%E8%B5%B0%E8%BF%87%E8%A1%97%E8%A7%92%E7%9A%84%E5%85%89%3C/text%3E%3Ctext x='48' y='104' font-family='sans-serif' font-size='12' fill='%23b9acd6' letter-spacing='4'%3EKEEP SHINING / 2026%3C/text%3E%3C/svg%3E" alt="原创编舞影像《走过街角的光》主视觉：街角暖光下舞者完成旋转动作">
+            <div class="xb-cover-meta"><span>夏柏编舞组 · 当代舞</span><span>04:16</span></div>
+          </div>
+          <div class="xb-card-body">
+            <h3>《走过街角的光》：把城市街口当作舞台的去向</h3>
+            <p>以清晨六点的十字路口为原点，四位舞者用 4 分 16 秒完成一次关于「出发」的身体叙述。全程实景拍摄，环境声原样保留。</p>
+            <div class="xb-card-tags"><span>原创编舞</span><span>城市探索</span><span>高清正版</span></div>
+            <div class="xb-card-actions">
+              <button class="xb-act" data-xb-like type="button">♡ <b>2.8万</b></button>
+              <button class="xb-act" data-xb-save type="button">☆ 收藏</button>
+              <button class="xb-act" data-xb-comment type="button">💬 评论</button>
+              <button class="xb-act" data-xb-share type="button">↗ 分享</button>
+            </div>
+          </div>
+        </article>
+        <div class="xb-focus-side">
+          <article class="xb-card">
+            <div class="xb-cover">
+              <span class="xb-cover-play">▶</span>
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240'%3E%3Crect width='400' height='240' fill='%23241448'/%3E%3Cpath d='M0 190c60-40 110 10 180-20s130 30 220-10v80H0z' fill='%233a1d70'/%3E%3Ccircle cx='300' cy='66' r='34' fill='%23ffb347' opacity='.28'/%3E%3Cpath d='M120 130l40-46 30 62 50-78 46 66' stroke='%235ee7c4' stroke-width='7' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ctext x='20' y='36' font-family='sans-serif' font-size='14' fill='%23ffe1b8'%3E%E5%B9%95%E5%90%8E%E5%BD%95%3C/text%3E%3C/svg%3E" alt="幕后记录短片《一次编舞的27个版本》封面：折线构成的动作轨迹">
+            </div>
+            <div class="xb-card-body">
+              <h3>《一次编舞的 27 个版本》</h3>
+              <p>从第一版到最终版，编舞师夏柏逐帧讲解结构变化。</p>
+            </div>
+          </article>
+          <article class="xb-card">
+            <div class="xb-cover">
+              <span class="xb-cover-play">▶</span>
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240'%3E%3Crect width='400' height='240' fill='%231f1240'/%3E%3Cg stroke='%23ff5d8f' stroke-width='6' fill='none' stroke-linecap='round' opacity='.85'%3E%3Cpath d='M70 170c30-60 60-60 90 0s60 60 90 0 60-60 90 0'/%3E%3C/g%3E%3Crect x='26' y='28' width='88' height='22' rx='11' fill='%23ffb347' opacity='.9'/%3E%3Ctext x='40' y='44' font-family='sans-serif' font-size='12' fill='%23231040' font-weight='bold'%3E%E6%95%99%E7%A8%8B%3C/text%3E%3C/svg%3E" alt="教程视频《国风身体重心控制》封面：粉色波浪线条示意重心移动">
+            </div>
+            <div class="xb-card-body">
+              <h3>《国风身体重心控制》三步法</h3>
+              <p>适合有一年基础的舞者，附完整慢速跟练段落。</p>
+            </div>
+          </article>
+          <article class="xb-card">
+            <div class="xb-cover">
+              <span class="xb-cover-play">▶</span>
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240'%3E%3Crect width='400' height='240' fill='%23291a52'/%3E%3Cg fill='%235ee7c4' opacity='.6'%3E%3Ccircle cx='90' cy='160' r='10'/%3E%3Ccircle cx='140' cy='120' r='10'/%3E%3Ccircle cx='190' cy='170' r='10'/%3E%3Ccircle cx='240' cy='110' r='10'/%3E%3Ccircle cx='290' cy='160' r='10'/%3E%3C/g%3E%3Cpath d='M70 160l70-40 50 50 50-60 50 50' stroke='%23ffb347' stroke-width='4' fill='none' stroke-dasharray='8 8'/%3E%3Ctext x='22' y='38' font-family='sans-serif' font-size='13' fill='%23b9acd6'%3E%E8%AE%BF%E8%B0%88%3C/text%3E%3C/svg%3E" alt="访谈节目《舞者十年》封面：绿色节点连成的路径图">
+            </div>
+            <div class="xb-card-body">
+              <h3>《舞者十年》对话阿澈</h3>
+              <p>一个从替补走到舞台中央的人，谈坚持与退让。</p>
+            </div>
+          </article>
+          <article class="xb-card">
+            <div class="xb-cover">
+              <span class="xb-cover-play">▶</span>
+              <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240'%3E%3Crect width='400' height='240' fill='%23201343'/%3E%3Cpath d='M0 200h400v40H0z' fill='%23ff5d8f' opacity='.3'/%3E%3Cg stroke='%23ffb347' stroke-width='5' fill='none' stroke-linecap='round'%3E%3Cpath d='M110 150l30-50 30 50 30-50 30 50'/%3E%3Cpath d='M230 150l30-50 30 50'/%3E%3C/g%3E%3Ctext x='22' y='38' font-family='sans-serif' font-size='13' fill='%23ffb347'%3E%E6%8C%91%E6%88%98%E8%B5%9B%3C/text%3E%3C/svg%3E" alt="编舞挑战赛宣传封面：橙色折线构成节奏图形">
+            </div>
+            <div class="xb-card-body">
+              <h3>第八期编舞挑战赛开放报名</h3>
+              <p>主题「十秒之后」，提交一段 30 秒原创片段即可参与。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO FLOW -->
+  <section class="xb-section" id="xb-flow" style="background:linear-gradient(180deg,#22133f,#1b1033)">
+    <div class="xb-wrap">
+      <div class="xb-section-head">
+        <div class="xb-eyebrow">Dance Films</div>
+        <h2>舞影像 · <span>社区热门作品</span></h2>
+        <p>来自签约创作者与联合投稿的近期作品，按内容标签可快速筛选。</p>
+      </div>
+      <div class="xb-filter-row" id="xbFilters">
+        <button class="xb-filter is-active" data-xb-filter="all" type="button">全部</button>
+        <button class="xb-filter" data-xb-filter="编舞" type="button">原创编舞</button>
+        <button class="xb-filter" data-xb-filter="教程" type="button">教程干货</button>
+        <button class="xb-filter" data-xb-filter="城市" type="button">城市探索</button>
+        <button class="xb-filter" data-xb-filter="访谈" type="button">人物访谈</button>
+        <button class="xb-filter" data-xb-filter="幕后" type="button">创作幕后</button>
+      </div>
+      <div class="xb-flow-grid" id="xbFlowGrid">
+
+        <article class="xb-card xb-video-card" data-xb-cat="编舞 城市">
+          <div class="xb-cover">
+            <span class="xb-cover-tag">编舞</span><span class="xb-cover-play">▶</span>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23241546'/%3E%3Cpath d='M0 160l100-50 80 30 90-60 130 44v101H0z' fill='%23371c6b'/%3E%3Ccircle cx='318' cy='52' r='26' fill='%23ffb347' opacity='.34'/%3E%3Cpath d='M150 130c14-26 40-26 48-2 6 20-16 32-34 26' stroke='%23ff5d8f' stroke-width='6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" alt="原创编舞《屋顶的风》封面：城市屋顶剪影与舞者弧线">
+          </div>
+          <div class="xb-card-body">
+            <h3>《屋顶的风》：三分钟的天台独舞</h3>
+            <p>傍晚六点的天台风很大，我们把风声留在了成片里。</p>
+            <div class="xb-author-line"><span class="xb-avatar" style="background:linear-gradient(135deg,#ffb347,#ff5d8f)">夏</span> 夏柏编舞组 · 1.9万浏览</div>
+            <div class="xb-card-actions">
+              <button class="xb-act" data-xb-like type="button">♡ <b>8632</b></button>
+              <button class="xb-act" data-xb-save type="button">☆ 收藏</button>
+              <button class="xb-act" data-xb-comment type="button">💬 评论</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="xb-card xb-video-card" data-xb-cat="教程">
+          <div class="xb-cover">
+            <span class="xb-cover-tag">教程</span><span class="xb-cover-play">▶</span>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%231e1240'/%3E%3Cg stroke='%235ee7c4' stroke-width='5' fill='none' stroke-linecap='round'%3E%3Cpath d='M60 160h80M80 120h100M100 80h90'/%3E%3C/g%3E%3Crect x='230' y='70' width='120' height='90' rx='10' fill='%23ffb347' opacity='.18'/%3E%3Cpath d='M268 100l34 20-34 20z' fill='%23ffb347'/%3E%3C/svg%3E" alt="教程视频《爵士身体隔离练习》封面：分层节奏条与播放三角">
+          </div>
+          <div class="xb-card-body">
+            <h3>爵士身体隔离练习：每天 12 分钟</h3>
+            <p>从头到脚拆分五组练习，跟练即可，不需要搭档。</p>
+            <div class="xb-author-line"><span class="xb-avatar" style="background:linear-gradient(135deg,#5ee7c4,#3aa6ff)">岑</span> 编舞师岑野 · 2.4万浏览</div>
+            <div class="xb-card-actions">
+              <button class="xb-act" data-xb-like type="button">♡ <b>1.1万</b></button>
+              <button class="xb-act" data-xb-save type="button">☆ 收藏</button>
+              <button class="xb-act" data-xb-comment type="button">💬 评论</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="xb-card xb-video-card" data-xb-cat="城市 幕后">
+          <div class="xb-cover">
+            <span class="xb-cover-tag">城市</span><span class="xb-cover-play">▶</span>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%2326144a'/%3E%3Cg fill='%233f2278'%3E%3Crect x='30' y='110' width='40' height='90'/%3E%3Crect x='82' y='80' width='30' height='120'/%3E%3Crect x='124' y='130' width='46' height='70'/%3E%3Crect x='290' y='96' width='36' height='104'/%3E%3Crect x='336' y='126' width='30' height='74'/%3E%3C/g%3E%3Ccircle cx='200' cy='96' r='34' fill='%23ff5d8f' opacity='.35'/%3E%3Cpath d='M170 200c18-40 42-40 60 0' stroke='%23ffb347' stroke-width='5' fill='none'/%3E%3C/svg%3E" alt="城市探索影像《菜市场里的节拍》封面：街区建筑与圆形节拍光点">
+          </div>
+          <div class="xb-card-body">
+            <h3>《菜市场里的节拍》：在叫卖声中起舞</h3>
+            <p>把菜市场的日常声响剪成节奏，舞步跟着摊主的手势走。</p>
+            <div class="xb-author-line"><span class="xb-avatar" style="background:linear-gradient(135deg,#ffb347,#5ee7c4)">纪</span> 创作者纪南 · 3.2万浏览</div>
+            <div class="xb-card-actions">
+              <button class="xb-act" data-xb-like type="button">♡ <b>2.1万</b></button>
+              <button class="xb-act" data-xb-save type="button">☆ 收藏</button>
+              <button class="xb-act" data-xb-comment type="button">💬 评论</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="xb-card xb-video-card" data-xb-cat="访谈">
+          <div class="xb-cover">
+            <span class="xb-cover-tag">访谈</span><span class="xb-cover-play">▶</span>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23221744'/%3E%3Ccircle cx='130' cy='108' r='44' fill='%23ffb347' opacity='.28'/%3E%3Ccircle cx='130' cy='108' r='26' fill='%23ffb347' opacity='.55'/%3E%3Cg stroke='%23b9acd6' stroke-width='3' opacity='.6'%3E%3Cpath d='M196 70h160M196 96h130M196 122h150M196 148h110'/%3E%3C/g%3E%3C/svg%3E" alt="人物访谈《从替补到独舞》封面：人物圆形光斑与文字信息线">
+          </div>
+          <div class="xb-card-body">
+            <h3>《从替补到独舞》：阿澈的八年</h3>
+            <p>他谈到了那次没能上台的演出，以及后来如何重新站回去。</p>
+            <div class="xb-author-line"><span class="xb-avatar" style="background:linear-gradient(135deg,#ff5d8f,#a25bff)">台</span> 夏柏编辑部 · 1.4万浏览</div>
+            <div class="xb-card-actions">
+              <button class="xb-act" data-xb-like type="button">♡ <b>6427</b></button>
+              <button class="xb-act" data-xb-save type="button">☆ 收藏</button>
+              <button class="xb-act" data-xb-comment type="button">💬 评论</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="xb-card xb-video-card" data-xb-cat="幕后 编舞">
+          <div class="xb-cover">
+            <span class="xb-cover-tag">幕后</span><span class="xb-cover-play">▶</span>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%231f1139'/%3E%3Crect x='40' y='60' width='150' height='105' rx='8' fill='%23321c62'/%3E%3Crect x='60' y='80' width='110' height='65' rx='6' fill='%23ffb347' opacity='.24'/%3E%3Cpath d='M240 130l50-40v80z' fill='%23ff5d8f' opacity='.7'/%3E%3Cpath d='M310 130l50-40v80z' fill='%235ee7c4' opacity='.5'/%3E%3C/svg%3E" alt="创作幕后《分镜是怎么画出来的》封面：镜头框与分镜节奏块">
+          </div>
+          <div class="xb-card-body">
+            <h3>《分镜是怎么画出来的》工作流拆解</h3>
+            <p>从手绘草图到实拍机位，完整公开我们的影像制作流程。</p>
+            <div class="xb-author-line"><span class="xb-avatar" style="background:linear-gradient(135deg,#5ee7c4,#a25bff)">影</span> 影像组老周 · 9806 浏览</div>
+            <div class="xb-card-actions">
+              <button class="xb-act" data-xb-like type="button">♡ <b>4730</b></button>
+              <button class="xb-act" data-xb-save type="button">☆ 收藏</button>
+              <button class="xb-act" data-xb-comment type="button">💬 评论</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="xb-card xb-video-card" data-xb-cat="教程 编舞">
+          <div class="xb-cover">
+            <span class="xb-cover-tag">教程</span><span class="xb-cover-play">▶</span>
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23201345'/%3E%3Cg stroke='%23ffb347' stroke-width='4' fill='none'%3E%3Cpath d='M40 180c50-10 70-90 120-90s70 80 120 70 60-40 80-40'/%3E%3C/g%3E%3Cg fill='%23ff5d8f' opacity='.6'%3E%3Ccircle cx='160' cy='90' r='7'/%3E%3Ccircle cx='240' cy='160' r='7'/%3E%3C/g%3E%3Ctext x='26' y='40' font-family='sans-serif' font-size='13' fill='%23b9acd6'%3E%E5%8A%A8%E4%BD%9C%E8%A7%A3%E6%9E%90%3C/text%3E%3C/svg%3E" alt="编舞动作解析《八拍里的呼吸》封面：起伏曲线与动作节点">
+          </div>
+          <div class="xb-card-body">
+            <h3>《八拍里的呼吸》：动作与气息怎么对</h3>
+            <p>很多动作做不出来，不是力量不够，是呼吸没跟上。</p>
+            <div class="xb-author-line"><span class="xb-avatar" style="background:linear-gradient(135deg,#ffb347,#ff5d8f)">夏</span> 夏柏编舞组 · 1.6万浏览</div>
+            <div class="xb-card-actions">
+              <button class="xb-act" data-xb-like type="button">♡ <b>7940</b></button>
+              <button class="xb-act" data-xb-save type="button">☆ 收藏</button>
+              <button class="xb-act" data-xb-comment type="button">💬 评论</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TOPICS -->
+  <section class="xb-section" id="xb-topics">
+    <div class="xb-wrap">
+      <div class="xb-section-head">
+        <div class="xb-eyebrow">Projects</div>
+        <h2>专题企划 · <span>正在推进</span></h2>
+        <p>长期企划是我们的内容骨架，每一个都持续更新、公开进度。</p>
+      </div>
+      <div class="xb-topic-grid">
+        <article class="xb-topic">
+          <div class="xb-topic-head">
+            <h3>城市即舞台 · 第三季</h3>
+            <p>把镜头搬出排练厅，走进菜市场、地铁口、天台与旧书店，用身体重新丈量城市。</p>
+            <span class="xb-topic-status">更新中 · 已上线 6 支</span>
+          </div>
+          <div class="xb-topic-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%232a1550'/%3E%3Cg fill='%233c2174'%3E%3Crect x='20' y='120' width='52' height='85'/%3E%3Crect x='84' y='86' width='38' height='119'/%3E%3Crect x='132' y='140' width='60' height='65'/%3E%3Crect x='280' y='104' width='42' height='101'/%3E%3Crect x='332' y='138' width='44' height='67'/%3E%3C/g%3E%3Ccircle cx='214' cy='70' r='30' fill='%23ffb347' opacity='.3'/%3E%3Cpath d='M180 200c14-38 44-38 58 0' stroke='%23ff5d8f' stroke-width='5' fill='none'/%3E%3C/svg%3E" alt="专题企划《城市即舞台》第三季封面：城市街区轮廓与舞者弧线">
+          </div>
+        </article>
+        <article class="xb-topic">
+          <div class="xb-topic-head">
+            <h3>舞者十年 · 长篇访谈</h3>
+            <p>每年对话十位不同阶段的舞者，记录他们的选择、身体的代价与仍然留下的理由。</p>
+            <span class="xb-topic-status">更新中 · 已发布 8 期</span>
+          </div>
+          <div class="xb-topic-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%231f1240'/%3E%3Ccircle cx='100' cy='112' r='40' fill='%23ff5d8f' opacity='.28'/%3E%3Ccircle cx='100' cy='112' r='22' fill='%23ffb347' opacity='.6'/%3E%3Cg stroke='%23b9acd6' stroke-width='3' opacity='.5'%3E%3Cpath d='M170 70h180M170 100h140M170 130h170M170 160h110'/%3E%3C/g%3E%3C/svg%3E" alt="专题企划《舞者十年》封面：人物光斑与访谈文字线">
+          </div>
+        </article>
+        <article class="xb-topic">
+          <div class="xb-topic-head">
+            <h3>十秒之后 · 编舞挑战赛</h3>
+            <p>每季一个主题命题，创作者提交 30 秒原创片段，优秀作品获得官方联合发布与创作基金。</p>
+            <span class="xb-topic-status">报名中 · 截止 12-08</span>
+          </div>
+          <div class="xb-topic-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23221646'/%3E%3Cg stroke='%235ee7c4' stroke-width='5' fill='none' stroke-linecap='round'%3E%3Cpath d='M60 150l40-60 40 60 40-60 40 60 40-60 40 60'/%3E%3C/g%3E%3Crect x='24' y='28' width='96' height='24' rx='12' fill='%23ffb347' opacity='.9'/%3E%3Ctext x='44' y='45' font-family='sans-serif' font-size='12' fill='%23231040' font-weight='bold'%3E%E6%8C%91%E6%88%98%E8%B5%9B%3C/text%3E%3C/svg%3E" alt="专题企划《十秒之后》编舞挑战赛封面：青色折线构成节奏图形">
+          </div>
+        </article>
+        <article class="xb-topic">
+          <div class="xb-topic-head">
+            <h3>排练厅公开课</h3>
+            <p>每月一次免费公开课，从基本功到编舞思维，线下与影像同步，面向所有阶段的学习者。</p>
+            <span class="xb-topic-status">每月更新 · 第 34 期</span>
+          </div>
+          <div class="xb-topic-cover">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23251a4c'/%3E%3Crect x='44' y='56' width='150' height='110' rx='10' fill='%23341f68'/%3E%3Crect x='64' y='76' width='110' height='70' rx='7' fill='%235ee7c4' opacity='.22'/%3E%3Ccircle cx='288' cy='112' r='42' fill='%23ffb347' opacity='.24'/%3E%3Cpath d='M270 96l30 18-30 18z' fill='%23ffb347'/%3E%3C/svg%3E" alt="专题企划《排练厅公开课》封面：课堂屏幕与播放按钮">
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREATORS -->
+  <section class="xb-section" id="xb-creators" style="background:linear-gradient(180deg,#231443,#1b1033)">
+    <div class="xb-wrap">
+      <div class="xb-section-head">
+        <div class="xb-eyebrow">Creators</div>
+        <h2>创作者矩阵 · <span>签约与联合</span></h2>
+        <p>他们既是舞者，也是导演、教师与记录者。点击可查看完整档案。</p>
+      </div>
+      <div class="xb-creator-grid">
+        <article class="xb-creator">
+          <div class="xb-creator-top">
+            <span class="xb-avatar" style="background:linear-gradient(135deg,#ffb347,#ff5d8f)">夏</span>
+            <div><h3>夏柏</h3><span>编舞 / 艺术总监</span></div>
+          </div>
+          <p>团队创始编舞，擅长把日常动作提炼为舞台语言，作品强调呼吸与留白的比例。</p>
+          <div class="xb-creator-meta"><span>作品 <b>86</b></span><span>关注 <b>24.6万</b></span></div>
+          <button class="xb-creator-btn" data-xb-creator="夏柏|编舞 / 艺术总监|团队创始编舞，擅长把日常动作提炼为舞台语言。代表作《走过街角的光》《屋顶的风》，坚持现场收音与实景拍摄。" type="button">查看创作者档案</button>
+        </article>
+        <article class="xb-creator">
+          <div class="xb-creator-top">
+            <span class="xb-avatar" style="background:linear-gradient(135deg,#5ee7c4,#3aa6ff)">岑</span>
+            <div><h3>岑野</h3><span>爵士 / 教学</span></div>
+          </div>
+          <p>专注身体隔离与节奏训练，课程以拆解细致著称，是许多舞者的入门第一课。</p>
+          <div class="xb-creator-meta"><span>作品 <b>62</b></span><span>关注 <b>18.3万</b></span></div>
+          <button class="xb-creator-btn" data-xb-creator="岑野|爵士 / 教学|专注身体隔离与节奏训练，课程拆解细致，累计陪伴超过十万名学习者完成第一次跟练。" type="button">查看创作者档案</button>
+        </article>
+        <article class="xb-creator">
+          <div class="xb-creator-top">
+            <span class="xb-avatar" style="background:linear-gradient(135deg,#ff5d8f,#a25bff)">澈</span>
+            <div><h3>阿澈</h3><span>表演 / 当代舞</span></div>
+          </div>
+          <p>从替补走到独舞，八年时间完成角色转换，如今也参与青年舞者的训练指导。</p>
+          <div class="xb-creator-meta"><span>作品 <b>44</b></span><span>关注 <b>15.7万</b></span></div>
+          <button class="xb-creator-btn" data-xb-creator="阿澈|表演 / 当代舞|从替补走到独舞，八年完成角色转换，参与青年舞者训练，作品以克制情绪与精准重心著称。" type="button">查看创作者档案</button>
+        </article>
+        <article class="xb-creator">
+          <div class="xb-creator-top">
+            <span class="xb-avatar" style="background:linear-gradient(135deg,#ffb347,#5ee7c4)">纪</span>
+            <div><h3>纪南</h3><span>城市影像 / 联合创作者</span></div>
+          </div>
+          <p>喜欢在城市缝隙里找舞台，菜市场、旧书店与地铁口都是他的取景地。</p>
+          <div class="xb-creator-meta"><span>作品 <b>37</b></span><span>关注 <b>12.9万</b></span></div>
+          <button class="xb-creator-btn" data-xb-creator="纪南|城市影像 / 联合创作者|热衷在城市缝隙中寻找舞台，擅长把环境声剪进节奏，作品有强烈的在地气息。" type="button">查看创作者档案</button>
+        </article>
+        <article class="xb-creator">
+          <div class="xb-creator-top">
+            <span class="xb-avatar" style="background:linear-gradient(135deg,#3aa6ff,#a25bff)">周</span>
+            <div><h3>老周</h3><span>影像 / 摄影指导</span></div>
+          </div>
+          <p>负责团队大部分作品的机位设计，主张镜头要跟着呼吸走，而不是跟着动作走。</p>
+          <div class="xb-creator-meta"><span>作品 <b>113</b></span><span>关注 <b>9.4万</b></span></div>
+          <button class="xb-creator-btn" data-xb-creator="老周|影像 / 摄影指导|主导团队影像机位设计，主张镜头跟着呼吸走，公开过完整的分镜工作流与方法论。" type="button">查看创作者档案</button>
+        </article>
+        <article class="xb-creator">
+          <div class="xb-creator-top">
+            <span class="xb-avatar" style="background:linear-gradient(135deg,#ff5d8f,#ffb347)">柚</span>
+            <div><h3>柚子</h3><span>国风 / 编舞</span></div>
+          </div>
+          <p>研究身体韵律与东方美学的结合，作品常以极简画面呈现复杂重心变化。</p>
+          <div class="xb-creator-meta"><span>作品 <b>29</b></span><span>关注 <b>11.2万</b></span></div>
+          <button class="xb-creator-btn" data-xb-creator="柚子|国风 / 编舞|研究身体韵律与东方美学结合，作品以极简画面呈现复杂重心变化，广受学习者欢迎。" type="button">查看创作者档案</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section class="xb-section">
+    <div class="xb-wrap">
+      <div class="xb-section-head">
+        <div class="xb-eyebrow">Notes</div>
+        <h2>排练厅笔记 · <span>真实的生活现场</span></h2>
+        <p>不是稿件，是我们自己在排练间隙写下的东西。</p>
+      </div>
+      <div class="xb-story-wrap">
+        <article class="xb-story-main">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 520'%3E%3Crect width='800' height='520' fill='%23201346'/%3E%3Cg fill='%23351e6b'%3E%3Crect x='60' y='120' width='180' height='400'/%3E%3Crect x='560' y='90' width='180' height='430'/%3E%3C/g%3E%3Ccircle cx='400' cy='190' r='72' fill='%23ffb347' opacity='.22'/%3E%3Cg stroke='%23ff5d8f' stroke-width='7' fill='none' stroke-linecap='round'%3E%3Cpath d='M330 300c26-52 76-52 86 6 8 46-40 66-70 46'/%3E%3Cpath d='M352 352c-6 46 20 82 62 92'/%3E%3C/g%3E%3Cpath d='M250 470h300' stroke='%235ee7c4' stroke-width='3' stroke-dasharray='10 12'/%3E%3C/svg%3E" alt="排练厅笔记配图：夜晚排练厅的灯光与舞者剪影">
+          <div class="xb-story-mask"></div>
+          <div class="xb-story-text">
+            <h3>关于那支没能在正式演出上场的舞</h3>
+            <p>2023 年冬天，我们为一场演出排练了七周，临演前三天因为场地问题取消了。那支舞后来被拆成三段，放进了别处的作品里。我一直记得最后那晚，大家在空着的舞台上把整支舞跳完，没有音乐，只有呼吸声。</p>
+          </div>
+        </article>
+        <div class="xb-story-list">
+          <article class="xb-story-item">
+            <h3>膝盖上的淤青，是编舞的一部分</h3>
+            <p>舞者身上总有一些说不清来历的淤青。我们开始记录它们的颜色变化，最后做成了一支短片的字幕卡。</p>
+            <time>2026-11-12 · 夏柏</time>
+          </article>
+          <article class="xb-story-item">
+            <h3>为什么坚持现场收音</h3>
+            <p>换掉音乐软件里的版本会很干净，但舞者的喘息、鞋底摩擦地板的声音，才是这段舞蹈真实的重量。</p>
+            <time>2026-11-06 · 老周</time>
+          </article>
+          <article class="xb-story-item">
+            <h3>一次失败的联合投稿</h3>
+            <p>有位创作者把片段剪得非常漂亮，但署名栏空了。我们退回了那次投稿，并写了一封很长的邮件说明原因。</p>
+            <time>2026-10-28 · 编辑部</time>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WALL -->
+  <section class="xb-section" style="background:linear-gradient(180deg,#1f1339,#1b1033)">
+    <div class="xb-wrap">
+      <div class="xb-section-head">
+        <div class="xb-eyebrow">Gallery</div>
+        <h2>影像墙 · <span>社区作品精选</span></h2>
+        <p>每一张都来自真实的排练与拍摄现场，尺寸不同，故事也不同。</p>
+      </div>
+      <div class="xb-wall">
+        <figure class="xb-wall-big">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 600'%3E%3Crect width='600' height='600' fill='%232b1755'/%3E%3Ccircle cx='300' cy='220' r='120' fill='%23ff5d8f' opacity='.18'/%3E%3Cg stroke='%23ffb347' stroke-width='10' fill='none' stroke-linecap='round'%3E%3Cpath d='M250 300c20-56 68-72 92-22 18 38-14 72-46 70'/%3E%3Cpath d='M272 350c-8 56 26 96 78 106'/%3E%3C/g%3E%3Ccircle cx='300' cy='212' r='24' fill='%235ee7c4'/%3E%3Cpath d='M120 500h360' stroke='%23b9acd6' stroke-width='3' opacity='.4' stroke-dasharray='12 14'/%3E%3C/svg%3E" alt="社区精选作品《月下的第三拍》：舞者在月光下完成抬臂动作">
+          <figcaption>《月下的第三拍》 · 拍摄于旧剧场</figcaption>
+        </figure>
+        <figure>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Crect width='400' height='400' fill='%231d1140'/%3E%3Cpath d='M0 300h400v100H0z' fill='%23331d6a'/%3E%3Cg stroke='%235ee7c4' stroke-width='6' fill='none' stroke-linecap='round'%3E%3Cpath d='M90 240l50-70 50 70 50-70 60 70'/%3E%3C/g%3E%3Ccircle cx='300' cy='110' r='30' fill='%23ffb347' opacity='.3'/%3E%3C/svg%3E" alt="社区精选作品《节拍练习》：地面上延伸的节奏折线">
+          <figcaption>《节拍练习》</figcaption>
+        </figure>
+        <figure>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Crect width='400' height='400' fill='%23241848'/%3E%3Ccircle cx='200' cy='180' r='90' fill='%23ffb347' opacity='.2'/%3E%3Cpath d='M140 260c20-40 46-40 60 0s40 40 60 0' stroke='%23ff5d8f' stroke-width='8' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" alt="社区精选作品《回旋》：粉色曲线构成的回旋动作示意">
+          <figcaption>《回旋》</figcaption>
+        </figure>
+        <figure>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Crect width='400' height='400' fill='%2320133f'/%3E%3Cg fill='%23351f66'%3E%3Crect x='40' y='200' width='80' height='200'/%3E%3Crect x='150' y='150' width='60' height='250'/%3E%3Crect x='240' y='220' width='90' height='180'/%3E%3C/g%3E%3Ccircle cx='200' cy='86' r='34' fill='%235ee7c4' opacity='.3'/%3E%3C/svg%3E" alt="社区精选作品《城市背面》：建筑剪影与绿色光晕">
+          <figcaption>《城市背面》</figcaption>
+        </figure>
+        <figure>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Crect width='400' height='400' fill='%2326154b'/%3E%3Cg stroke='%23ffb347' stroke-width='5' fill='none' opacity='.8'%3E%3Cpath d='M60 300c60-20 80-140 140-140s80 120 140 100'/%3E%3C/g%3E%3Ccircle cx='200' cy='158' r='16' fill='%23ff5d8f'/%3E%3C/svg%3E" alt="社区精选作品《一条弧线》封面：琥珀色曲线与粉色节点">
+          <figcaption>《一条弧线》</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="xb-section">
+    <div class="xb-wrap">
+      <div class="xb-section-head">
+        <div class="xb-eyebrow">Voices</div>
+        <h2>社区声音 · <span>他们这样说</span></h2>
+        <p>来自不同城市、不同阶段的观众，语气各异，但大多很真诚。</p>
+      </div>
+      <div class="xb-review-grid">
+        <article class="xb-review">
+          <div class="xb-review-top">
+            <span class="xb-avatar" style="background:linear-gradient(135deg,#ffb347,#ff5d8f)">林</span>
+            <div><b>林小满</b><span>杭州 · 学习两年</span></div>
+            <span class="xb-stars">★★★★★</span>
+          </div>
+          <p>跟着岑野老师的隔离练习做了一个月，第一次知道自己肩膀是可以单独动的。教程里的慢速分解真的很救新手。</p>
+        </article>
+        <article class="xb-review">
+          <div class="xb-review-top">
+            <span class="xb-avatar" style="background:linear-gradient(135deg,#5ee7c4,#3aa6ff)">陈</span>
+            <div><b>陈默</b><span>成都 · 编舞爱好者</span></div>
+            <span class="xb-stars">★★★★★</span>
+          </div>
+          <p>《走过街角的光》我看了四遍。最打动我的不是动作，是那种清晨城市还没醒过来的安静。这种作品现在不多了。</p>
+        </article>
+        <article class="xb-review">
+          <div class="xb-review-top">
+            <span class="xb-avatar" style="background:linear-gradient(135deg,#ff5d8f,#a25bff)">Y</span>
+            <div><b>Yuki</b><span>上海 · 舞团成员</span></div>
+            <span class="xb-stars">★★★★☆</span>
+          </div>
+          <p>投稿流程比想象中顺畅，反馈也具体，指出了我剪辑节奏的问题。唯一希望的是评审周期能再快一点。</p>
+        </article>
+        <article class="xb-review">
+          <div class="xb-review-top">
+            <span class="xb-avatar" style="background:linear-gradient(135deg,#ffb347,#5ee7c4)">老</span>
+            <div><b>老白</b><span>北京 · 观众</span></div>
+            <span class="xb-stars">★★★★★</span>
+          </div>
+          <p>我完全不跳舞，但很喜欢看你们的幕后。分镜那期让我明白了为什么有些画面看起来那么「顺」。</p>
+        </article>
+        <article class="xb-review">
+          <div class="xb-review-top">
+            <span class="xb-avatar" style="background:linear-gradient(135deg,#3aa6ff,#a25bff)">苏</span>
+            <div><b>苏叶</b><span>广州 · 学生</span></div>
+            <span class="xb-stars">★★★★☆</span>
+          </div>
+          <p>公开课抢了两次才抢到，现场氛围很好，没有那种被围观的压力。希望以后能多开几场。</p>
+        </article>
+        <article class="xb-review">
+          <div class="xb-review-top">
+            <span class="xb-avatar" style="background:linear-gradient(135deg,#ff5d8f,#ffb347)">阿</span>
+            <div><b>阿睿</b><span>武汉 · 独立创作者</span></div>
+            <span class="xb-stars">★★★★★</span>
+          </div>
+          <p>作为联合投稿的作者，最直接的感受是署名被认真对待。这一点在行业里其实挺难得的。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWS + FAQ -->
+  <section class="xb-section" id="xb-news" style="background:linear-gradient(180deg,#22143f,#1b1033)">
+    <div class="xb-wrap">
+      <div class="xb-two-col">
+        <div>
+          <div class="xb-section-head">
+            <div class="xb-eyebrow">Newsroom</div>
+            <h2>企业动态 · <span>官方发布</span></h2>
+            <p>关于企划进度、开放报名与内容更新的官方消息。</p>
+          </div>
+          <div class="xb-news-list">
+            <article class="xb-news">
+              <time>11-18</time>
+              <div>
+                <h3>「城市即舞台」第三季新增两处拍摄地</h3>
+                <p>确认增加旧书店与渡口两处场景，第四支作品预计 12 月上旬上线。</p>
+              </div>
+            </article>
+            <article class="xb-news">
+              <time>11-14</time>
+              <div>
+                <h3>第八期编舞挑战赛报名通道开启</h3>
+                <p>本期主题「十秒之后」，提交 30 秒原创片段即可参与，截止 12 月 8 日。</p>
+              </div>
+            </article>
+            <article class="xb-news">
+              <time>11-09</time>
+              <div>
+                <h3>签约创作者名单更新，新增四位舞者</h3>
+                <p>涵盖国风、爵士与当代舞方向，相关档案已在创作者页面公开。</p>
+              </div>
+            </article>
+            <article class="xb-news">
+              <time>11-02</time>
+              <div>
+                <h3>排练厅公开课第 34 期开放预约</h3>
+                <p>本期主题为「重心与呼吸」，线下名额 60 人，影像版同步发布。</p>
+              </div>
+            </article>
+            <article class="xb-news">
+              <time>10-26</time>
+              <div>
+                <h3>内容版权说明更新</h3>
+                <p>团队所有原创编舞影像均完成版权登记，转载需获得书面授权。</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div>
+          <div class="xb-section-head">
+            <div class="xb-eyebrow">FAQ</div>
+            <h2>常见问题 · <span>帮助中心</span></h2>
+            <p>关于投稿、课程与合作的常见疑问，点击展开查看。</p>
+          </div>
+          <div class="xb-faq">
+            <details open>
+              <summary>如何向 ks舞团夏柏 投稿作品？</summary>
+              <p>可以通过页面底部的投稿表单提交，或发送作品链接到官方邮箱。我们会在 7 个工作日内给出具体反馈，包括编舞与影像两个维度的建议。</p>
+            </details>
+            <details>
+              <summary>投稿作品需要满足什么要求？</summary>
+              <p>需为原创编舞或原创影像，画面清晰、署名完整，时长建议 30 秒至 8 分钟。涉及他人音乐或素材的，请附授权说明。</p>
+            </details>
+            <details>
+              <summary>公开课是否收费？</summary>
+              <p>每月一次的公开课免费开放，需提前预约。线下名额有限，授课影像会在社区同步发布，方便无法到场的舞者跟练。</p>
+            </details>
+            <details>
+              <summary>签约创作者有哪些权益？</summary>
+              <p>包括作品联合署名、官方渠道发布、编舞指导、拍摄资源支持与创作分成，具体条款在签约时逐条说明，不做模糊约定。</p>
+            </details>
+            <details>
+              <summary>是否接受品牌或机构合作？</summary>
+              <p>接受。我们更倾向于与尊重创作者署名的品牌合作，形式包括联名影像、线下展演与教学项目，可从联系表单发起沟通。</p>
+            </details>
+            <details>
+              <summary>作品可以转载到其他平台吗？</summary>
+              <p>欢迎分享原始链接。若需下载或二次剪辑，请先取得书面授权，我们希望每一份创作都能被清楚地标注来源。</p>
+            </details>
+            <details>
+              <summary>如何加入编舞挑战赛的评选？</summary>
+              <p>提交后由编舞组与影像组联合初评，入围作品进入社区投票环节，最终结果综合专业评审与投票产生，过程公开可查。</p>
+            </details>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="xb-section xb-contact" id="xb-contact">
+    <div class="xb-wrap">
+      <div class="xb-contact-grid">
+        <div>
+          <div class="xb-eyebrow">Join Us</div>
+          <h2>投稿、合作或只是想说句话，<br><span>我们都看得到</span></h2>
+          <p>ks舞团夏柏 的每一个企划都向社区开放。你可以是舞者、影像创作者、场地提供方，也可以只是一个喜欢看舞蹈的人。</p>
+          <div class="xb-contact-info">
+            <span>官方邮箱：<b>hello@ksxiabai.dance</b></span>
+            <span>合作与媒体：<b>press@ksxiabai.dance</b></span>
+            <span>排练厅地址：<b>夏柏创意园 3 号楼 2 层</b></span>
+            <span>开放时间：<b>周二至周日 10:00 - 21:00</b></span>
+          </div>
+          <div class="xb-hero-actions">
+            <button class="xb-btn xb-btn-primary" data-xb-share type="button">复制本页链接</button>
+            <button class="xb-btn xb-btn-ghost" data-xb-report type="button">反馈与建议</button>
+          </div>
+        </div>
+        <div class="xb-contact-card">
+          <h3>投稿 / 合作意向表</h3>
+          <p>填写后我们会在 7 个工作日内与你联系，请尽量写清楚作品方向。</p>
+          <form id="xbContactForm">
+            <div class="xb-form-row">
+              <input type="text" name="name" placeholder="你的称呼" required>
+            </div>
+            <div class="xb-form-row">
+              <input type="email" name="email" placeholder="联系邮箱" required>
+            </div>
+            <div class="xb-form-row">
+              <select name="type">
+                <option>原创编舞投稿</option>
+                <option>影像作品投稿</option>
+                <option>品牌与机构合作</option>
+                <option>公开课与教学</option>
+                <option>其他咨询</option>
+              </select>
+            </div>
+            <div class="xb-form-row">
+              <textarea name="msg" placeholder="简单介绍你的作品或合作想法"></textarea>
+            </div>
+            <button class="xb-contact-submit" type="submit">提交意向</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="xb-footer">
+  <div class="xb-wrap">
+    <div class="xb-footer-grid">
+      <div>
+        <div class="xb-logo" style="margin-bottom:14px">
+          <span class="xb-logo-mark">舞</span>
+          <span>ks舞团夏柏<small>KS DANCE · XIABAI</small></span>
+        </div>
+        <p>专注原创编舞与舞蹈影像的品牌机构，以专业内容与完整创作者机制持续运营，致力于让舞蹈被更好地看见。</p>
+        <div class="xb-social">
+          <span title="微信公众号">微</span>
+          <span title="视频号">视</span>
+          <span title="小红书">红</span>
+          <span title="哔哩哔哩">B</span>
+        </div>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul>
+          <li><a href="#xb-focus">焦点内容</a></li>
+          <li><a href="#xb-flow">舞影像</a></li>
+          <li><a href="#xb-topics">专题企划</a></li>
+          <li><a href="#xb-creators">创作者矩阵</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于我们</h4>
+        <ul>
+          <li><a href="#xb-about">品牌解析</a></li>
+          <li><a href="#xb-news">企业动态</a></li>
+          <li><a href="#xb-contact">联系与投稿</a></li>
+          <li><a href="#xb-news">帮助中心</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>品牌信息</h4>
+        <ul>
+          <li>ks舞团夏柏 官方网站</li>
+          <li>原创编舞 · 正版高清</li>
+          <li>夏柏创意园 3 号楼</li>
+          <li>持续运营 · 匠心出品</li>
+        </ul>
+      </div>
+    </div>
+    <div class="xb-footer-bottom">
+      <span>© 2017-2026 ks舞团夏柏 版权所有 · 本网站内容受版权保护，未经授权不得转载</span>
+      <span>备案号：夏柏文网备 2026-0117 号</span>
+    </div>
+  </div>
+</footer>
+
+<button class="xb-to-top" id="xbToTop" type="button" aria-label="回到顶部">↑</button>
+
+<div class="xb-modal" id="xbShareModal">
+  <div class="xb-modal-card">
+    <button class="xb-modal-close" data-xb-close type="button" aria-label="关闭">×</button>
+    <h3>分享 ks舞团夏柏</h3>
+    <p>复制链接或选择平台，把好看的舞蹈影像分享给朋友。</p>
+    <div class="xb-share-row">
+      <button data-xb-copylink type="button">复制链接</button>
+      <button data-xb-shareto="微信" type="button">微信</button>
+      <button data-xb-shareto="微博" type="button">微博</button>
+      <button data-xb-shareto="QQ" type="button">QQ</button>
+    </div>
+    <p style="margin-bottom:0;font-size:13px">提示：部分平台需在对应 App 内打开，链接已准备好。</p>
+  </div>
+</div>
+
+<div class="xb-modal" id="xbCreatorModal">
+  <div class="xb-modal-card">
+    <button class="xb-modal-close" data-xb-close type="button" aria-label="关闭">×</button>
+    <h3 id="xbCreatorName">创作者档案</h3>
+    <p id="xbCreatorRole" style="color:var(--xb-mint);margin-bottom:10px"></p>
+    <p id="xbCreatorDesc"></p>
+    <p style="margin-bottom:0;font-size:13px">如需合作，请通过联系表单说明来意，我们会在 7 个工作日内回复。</p>
+  </div>
+</div>
+
+<div class="xb-modal" id="xbReportModal">
+  <div class="xb-modal-card">
+    <button class="xb-modal-close" data-xb-close type="button" aria-label="关闭">×</button>
+    <h3>反馈与建议</h3>
+    <p>遇到内容问题或对企划有想法，都可以留在这里。</p>
+    <div class="xb-form-row">
+      <textarea placeholder="写下你的反馈内容" id="xbReportText"></textarea>
+    </div>
+    <button class="xb-contact-submit" id="xbReportSubmit" type="button">提交反馈</button>
+  </div>
+</div>
+
+<div class="xb-modal" id="xbCommentModal">
+  <div class="xb-modal-card">
+    <button class="xb-modal-close" data-xb-close type="button" aria-label="关闭">×</button>
+    <h3>评论对话</h3>
+    <p style="margin-bottom:14px">关于这支作品，社区里正在讨论：</p>
+    <div class="xb-story-list">
+      <div class="xb-story-item">
+        <h3>@橘子汽水</h3>
+        <p>最后那个转身接落地的动作太漂亮了，气息完全没断。</p>
+      </div>
+      <div class="xb-story-item">
+        <h3>@跳舞的鹿</h3>
+        <p>求一个动作分解版，自己练了几次总是差半拍。</p>
+      </div>
+      <div class="xb-story-item">
+        <h3>@夜班编辑</h3>
+        <p>环境声处理得很克制，没有把城市声音盖过呼吸声。</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="xb-toast" id="xbToast" role="status"></div>
+
+<script>
+(function(){
+  var d = document;
+
+  /* 移动端导航 */
+  var burger = d.getElementById('xbBurger');
+  var nav = d.getElementById('xbNav');
+  if(burger && nav){
+    burger.addEventListener('click', function(){
+      nav.classList.toggle('is-open');
+      burger.textContent = nav.classList.contains('is-open') ? '✕' : '☰';
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A'){
+        nav.classList.remove('is-open');
+        burger.textContent = '☰';
+      }
+    });
+  }
+
+  /* Toast */
+  var toast = d.getElementById('xbToast');
+  var toastTimer = null;
+  function showToast(msg){
+    if(!toast) return;
+    toast.textContent = msg;
+    toast.classList.add('is-on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toast.classList.remove('is-on'); }, 2200);
+  }
+
+  /* 搜索反馈 */
+  var searchInput = d.getElementById('xbSearchInput');
+  var searchBtn = d.getElementById('xbSearchBtn');
+  var searchFb = d.getElementById('xbSearchFeedback');
+  var keywordsMap = ['编舞','爵士','国风','城市','访谈','幕后','教程','夏柏','挑战赛','公开课'];
+  function doSearch(){
+    if(!searchInput) return;
+    var q = searchInput.value.trim();
+    if(!q){
+      if(searchFb){
+        searchFb.textContent = '输入舞种、创作者或企划名试试看';
+        searchFb.classList.add('is-on');
+        setTimeout(function(){ searchFb.classList.remove('is-on'); }, 2000);
+      }
+      return;
+    }
+    var hit = keywordsMap.filter(function(k){ return k.indexOf(q) > -1 || q.indexOf(k) > -1; });
+    if(searchFb){
+      searchFb.textContent = hit.length
+        ? '已为您找到与「' + q + '」相关的内容方向：' + hit.join('、')
+        : '暂无完全匹配结果，试试「编舞」「城市」「幕后」';
+      searchFb.classList.add('is-on');
+      setTimeout(function(){ searchFb.classList.remove('is-on'); }, 2600);
+    }
+    var target = d.getElementById('xb-flow');
+    if(target) target.scrollIntoView({behavior:'smooth'});
+  }
+  if(searchBtn) searchBtn.addEventListener('click', doSearch);
+  if(searchInput) searchInput.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){ e.preventDefault(); doSearch(); }
+  });
+
+  /* 点赞 / 收藏 */
+  d.addEventListener('click', function(e){
+    var like = e.target.closest('[data-xb-like]');
+    if(like){
+      var numEl = like.querySelector('b');
+      var liked = like.classList.toggle('is-liked');
+      if(numEl){
+        var n = parseInt(numEl.textContent.replace(/[^\d]/g,''),10) || 0;
+        n += liked ? 1 : -1;
+        if(n < 0) n = 0;
+        numEl.textContent = n >= 10000 ? (n/10000).toFixed(1) + '万' : n;
+      }
+      showToast(liked ? '已点赞，谢谢你的喜欢' : '已取消点赞');
+      return;
+    }
+    var save = e.target.closest('[data-xb-save]');
+    if(save){
+      var on = save.classList.toggle('is-saved');
+      save.textContent = on ? '★ 已收藏' : '☆ 收藏';
+      showToast(on ? '已加入你的收藏' : '已取消收藏');
+      return;
+    }
+  });
+
+  /* 筛选 */
+  var filterRow = d.getElementById('xbFilters');
+  var flowItems = Array.prototype.slice.call(d.querySelectorAll('#xbFlowGrid > article'));
+  if(filterRow){
+    filterRow.addEventListener('click', function(e){
+      var btn = e.target.closest('[data-xb-filter]');
+      if(!btn) return;
+      filterRow.querySelectorAll('.xb-filter').forEach(function(b){ b.classList.remove('is-active'); });
+      btn.classList.add('is-active');
+      var key = btn.getAttribute('data-xb-filter');
+      flowItems.forEach(function(card){
+        var cat = card.getAttribute('data-xb-cat') || '';
+        var show = (key === 'all') || cat.indexOf(key) > -1;
+        card.style.display = show ? '' : 'none';
+      });
+    });
+  }
+
+  /* 数字滚动 */
+  var counters = d.querySelectorAll('[data-xb-count]');
+  function runCounters(){
+    counters.forEach(function(el){
+      var target = parseInt(el.getAttribute('data-xb-count'),10) || 0;
+      var cur = 0;
+      var step = Math.max(1, Math.round(target / 40));
+      var timer = setInterval(function(){
+        cur += step;
+        if(cur >= target){ cur = target; clearInterval(timer); }
+        el.textContent = cur;
+      }, 28);
+    });
+  }
+  var counted = false;
+  function checkCounters(){
+    if(counted || !counters.length) return;
+    var rect = counters[0].getBoundingClientRect();
+    if(rect.top < window.innerHeight - 60){
+      counted = true;
+      runCounters();
+    }
+  }
+
+  /* 回到顶部 */
+  var toTop = d.getElementById('xbToTop');
+  if(toTop){
+    toTop.addEventListener('click', function(){
+      window.scrollTo({top:0, behavior:'smooth'});
+    });
+    window.addEventListener('scroll', function(){
+      toTop.classList.toggle('is-on', window.scrollY > 520);
+      checkCounters();
+    });
+    checkCounters();
+  }
+
+  /* 弹窗通用 */
+  function openModal(id){
+    var m = d.getElementById(id);
+    if(m) m.classList.add('is-on');
+  }
+  function closeAllModals(){
+    d.querySelectorAll('.xb-modal').forEach(function(m){ m.classList.remove('is-on'); });
+  }
+  d.addEventListener('click', function(e){
+    if(e.target.closest('[data-xb-close]')){ closeAllModals(); return; }
+    if(e.target.classList && e.target.classList.contains('xb-modal')){ closeAllModals(); return; }
+    var shareBtn = e.target.closest('[data-xb-share]');
+    if(shareBtn){ openModal('xbShareModal'); return; }
+    var commentBtn = e.target.closest('[data-xb-comment]');
+    if(commentBtn){ openModal('xbCommentModal'); return; }
+    var reportBtn = e.target.closest('[data-xb-report]');
+    if(reportBtn){ openModal('xbReportModal'); return; }
+    var creatorBtn = e.target.closest('[data-xb-creator]');
+    if(creatorBtn){
+      var parts = creatorBtn.getAttribute('data-xb-creator').split('|');
+      var nm = d.getElementById('xbCreatorName');
+      var rl = d.getElementById('xbCreatorRole');
+      var ds = d.getElementById('xbCreatorDesc');
+      if(nm) nm.textContent = parts[0] || '创作者档案';
+      if(rl) rl.textContent = parts[1] || '';
+      if(ds) ds.textContent = parts[2] || '';
+      openModal('xbCreatorModal');
+      return;
+    }
+  });
+
+  /* 复制链接 */
+  function copyLink(){
+    var url = window.location.href.split('#')[0];
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(url).then(function(){
+        showToast('链接已复制，去分享给同好吧');
+      }).catch(function(){
+        showToast('复制未成功，可手动选择地址栏复制');
+      });
+    } else {
+      var ta = d.createElement('textarea');
+      ta.value = url;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      d.body.appendChild(ta);
+      ta.select();
+      try { d.execCommand('copy'); showToast('链接已复制，去分享给同好吧'); }
+      catch(err){ showToast('复制未成功，可手动选择地址栏复制'); }
+      d.body.removeChild(ta);
+    }
+  }
+  d.addEventListener('click', function(e){
+    if(e.target.closest('[data-xb-copylink]')){ copyLink(); return; }
+    var to = e.target.closest('[data-xb-shareto]');
+    if(to){
+      showToast('已准备分享到' + to.getAttribute('data-xb-shareto') + '，请在对应应用内完成发送');
+    }
+  });
+
+  /* 反馈提交 */
+  var reportSubmit = d.getElementById('xbReportSubmit');
+  if(reportSubmit){
+    reportSubmit.addEventListener('click', function(){
+      var txt = d.getElementById('xbReportText');
+      if(txt && txt.value.trim().length < 4){
+        showToast('请再多写几个字，方便我们跟进');
+        return;
+      }
+      if(txt) txt.value = '';
+      closeAllModals();
+      showToast('反馈已收到，感谢你的认真');
+    });
+  }
+
+  /* 联系表单 */
+  var contactForm = d.getElementById('xbContactForm');
+  if(contactForm){
+    contactForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      showToast('意向已提交，我们会在 7 个工作日内联系你');
+      contactForm.reset();
+    });
+  }
+
+  /* 键盘关闭 */
+  d.addEventListener('keydown', function(e){
+    if(e.key === 'Escape') closeAllModals();
+  });
+})();
+</script>
+</body>
+  </html>
